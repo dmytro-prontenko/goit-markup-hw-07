@@ -8,9 +8,6 @@
 │          HEADER
 │ =========================
 */
-  .page-header {
-    /* margin: 0 auto; */
-  }
   .header-container {
     margin: 0 auto;
   }
@@ -19,6 +16,12 @@
     flex-direction: row;
     gap: 40px;
     margin-left: auto;
+  }
+
+  .contact-item > a {
+    font-size: var(--description-size);
+    line-height: var(--description-height);
+    letter-spacing: var(--ls-small);
   }
 
   .address {
