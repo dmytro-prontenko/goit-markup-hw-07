@@ -115,12 +115,10 @@
   /* #region FOOTER */
 
   .footer-wrapper {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    /* column-gap: 72px; */
 
     padding: 0 108px;
   }
@@ -139,7 +137,6 @@
   }
 
   .footer-subscribe {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;

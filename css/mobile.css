@@ -469,7 +469,10 @@
 }
 
 .footer-description {
+  width: 264px;
   color: #f4f4fd;
+  font-size: var(--description-size);
+
   line-height: var(--description-height);
   letter-spacing: var(--ls-small);
 }
@@ -538,7 +541,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  /* gap: 16px; */
 
   min-width: 165px;
   padding: 8px 24px;
