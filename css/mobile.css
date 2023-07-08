@@ -450,7 +450,7 @@
 .footer-container {
   display: flex;
   flex-direction: column;
-  box-sizing: content-box;
+  /* box-sizing: content-box; */
   gap: 17.5px;
   max-width: 264px;
   padding: 0;

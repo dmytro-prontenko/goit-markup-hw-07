@@ -110,4 +110,58 @@
     width: calc((100% - 24px * 2) / 3);
   }
   /* #endregion CUSTOMERS */
+
+  /* FOOTER */
+  /* #region FOOTER */
+
+  .footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* column-gap: 72px; */
+
+    padding: 0 108px;
+  }
+
+  .footer-container {
+    width: 264px;
+    margin: 0;
+  }
+
+  .footer-link {
+    text-align: left;
+  }
+
+  .footer-social {
+    align-items: flex-start;
+  }
+
+  .footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .footer-subscribe-btn {
+    margin: 0;
+  }
+
+  .subscribe-label {
+    margin: 0;
+    width: 264px;
+  }
+
+  .footer-form {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer-subscribe-mail {
+    width: 264px;
+  }
+
+  /* #endregion FOOTER */
 }
