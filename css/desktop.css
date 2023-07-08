@@ -8,6 +8,22 @@
 │          HEADER
 │ =========================
 */
+  .page-header {
+    /* margin: 0 auto; */
+  }
+  .header-container {
+    margin: 0 auto;
+  }
+
+  .contacts-list {
+    flex-direction: row;
+    gap: 40px;
+    margin-left: auto;
+  }
+
+  .address {
+    margin-left: auto;
+  }
 
   /* HERO */
   /* #region HERO */
