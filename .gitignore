@@ -157,7 +157,7 @@ andreysarafanov commented on Apr 25, 2019
 .less are actually your source files, whereas .css are just some intermediate results that .less files get transpiled into during the build. So you normally want to store your source files in git and ignore build artifacts.
 
 @dmytro-prontenko
- 
+
 Add heading textAdd bold text, <Cmd+b>Add italic text, <Cmd+i>
 Add a quote, <Cmd+Shift+.>Add code, <Cmd+e>Add a link, <Cmd+k>
 Add a bulleted list, <Cmd+Shift+8>Add a numbered list, <Cmd+Shift+7>Add a task list, <Cmd+Shift+l>
