@@ -637,43 +637,6 @@
 
 /* #endregion MODAL_FORM */
 /* #endregion MODAL */
-/*
-    │ =========================
-    │         FEATURES
-    │ =========================
-    */
-/* #region FEATURES*/
-.feature-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.features-container {
-  display: flex;
-}
-
-.features-list {
-  display: flex;
-  gap: 24px;
-}
-
-.feature-item {
-  width: calc((100% - 72px) / 4);
-}
-
-.icon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin-bottom: 8px;
-  height: 112px;
-  border-radius: 4px;
-
-  background-color: var(--light-text);
-}
-
-/* #endregion FEATURES */
 
 /*
     │ =========================
