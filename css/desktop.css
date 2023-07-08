@@ -3,11 +3,8 @@
     max-width: 1158px;
   }
 
-  /*
-│ =========================
-│          HEADER
-│ =========================
-*/
+  /* HEADER */
+  /* #region HEADER */
   .header-container {
     margin: 0 auto;
   }
@@ -27,6 +24,7 @@
   .address {
     margin-left: auto;
   }
+  /* #endregion HEADER */
 
   /* HERO */
   /* #region HERO */
@@ -73,4 +71,16 @@
     display: flex;
   }
   /* #endregion SOLUTIONS */
+
+  /* CUSTOMERS */
+  /* #region CUSTOMERS */
+  .customer-list {
+    gap: 24px;
+    max-width: 1128px;
+  }
+
+  .customer-item {
+    width: calc((100% - 24px * 5) / 6);
+  }
+  /* #endregion CUSTOMERS */
 }

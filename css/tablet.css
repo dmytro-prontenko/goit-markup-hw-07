@@ -3,11 +3,8 @@
     max-width: 768px;
   }
 
-  /*
-│ =========================
-│          HEADER
-│ =========================
-*/
+  /* HEADER */
+  /* #region HEADER */
 
   .header-container {
     max-width: 100%;
@@ -25,7 +22,7 @@
 
   .address {
     display: block;
-    margin-left: auto;/
+    margin-left: auto;
   }
 
   .contacts-list {
@@ -39,6 +36,7 @@
     line-height: 14px;
     letter-spacing: 0.48px;
   }
+  /* #endregion HEADER */
 
   /* HERO */
   /* #region HERO */
@@ -85,7 +83,14 @@
   }
   /* #endregion FEATURES */
 
-  /* SOLUTIONS */
-  /* #region SOLUTIONS */
-  /* #endregion SOLUTIONS */
+  /* CUSTOMERS */
+  /* #region CUSTOMERS */
+  .customer-list {
+    gap: 72px 24px;
+  }
+
+  .customer-item {
+    width: calc((100% - 24px * 2) / 3);
+  }
+  /* #endregion CUSTOMERS */
 }
