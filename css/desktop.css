@@ -67,10 +67,33 @@
 
   /* SOLUTIONS */
   /* #region SOLUTIONS */
+
+  .solution-section {
+    padding-bottom: 120px;
+  }
+
   .solution-container {
     display: flex;
   }
   /* #endregion SOLUTIONS */
+
+  /* TEAM */
+  /* #region TEAM */
+  .team-container {
+    padding: 0;
+
+    /* ?Чому при встановленні width, замість max-width контейнер ламається*/
+    /* max-width: 100%; */
+  }
+  .team-list {
+    /* width: 100%; */
+    gap: 24px;
+  }
+
+  .teammate {
+    width: calc((100% - 24px * 3) / 4);
+  }
+  /* #endregion TEAM */
 
   /* CUSTOMERS */
   /* #region CUSTOMERS */
