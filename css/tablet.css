@@ -41,6 +41,25 @@
   /* HERO */
   /* #region HERO */
 
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/adaptive/tablet/hero/hero@1x-tab.webp");
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/adaptive/tablet/hero/hero@2x-tab.webp");
+    }
+  }
+
   .hero-container {
     /* width: 496px; */
     padding: 0;
