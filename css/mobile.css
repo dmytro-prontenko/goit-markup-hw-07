@@ -93,6 +93,8 @@
 }
 .menu {
   position: relative;
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   width: 100%;
   min-height: 100%;
@@ -139,6 +141,7 @@
   flex-direction: column;
 
   gap: 40px;
+  margin-top: auto;
   margin-bottom: 48px;
 }
 
@@ -146,6 +149,9 @@
 }
 
 .menu-phone {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1;
@@ -168,6 +174,7 @@
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-top: 0;
 }
 
 /*
