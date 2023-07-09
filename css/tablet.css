@@ -12,6 +12,14 @@
     padding: 0 16px;
   }
 
+  .header-button {
+    display: none;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
   .logo {
     margin-right: 120px;
   }
