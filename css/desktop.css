@@ -103,6 +103,12 @@
     /* ?Чому при встановленні width, замість max-width контейнер ламається*/
     /* max-width: 100%; */
   }
+
+  .team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
   .team-list {
     /* width: 100%; */
     gap: 24px;
@@ -115,6 +121,13 @@
 
   /* CUSTOMERS */
   /* #region CUSTOMERS */
+  .customers-section {
+    padding: 0;
+  }
+
+  .customers-container {
+    padding: 120px 0;
+  }
   .customer-list {
     gap: 24px;
     max-width: 1128px;
