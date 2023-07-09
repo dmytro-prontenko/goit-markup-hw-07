@@ -20,6 +20,10 @@
     display: none;
   }
 
+  .menu {
+    display: none;
+  }
+
   .logo {
     margin-right: 120px;
   }
