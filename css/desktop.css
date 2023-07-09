@@ -126,7 +126,7 @@
   }
 
   .customers-container {
-    padding: 120px 0;
+    padding: 120px 16px;
   }
   .customer-list {
     gap: 24px;
