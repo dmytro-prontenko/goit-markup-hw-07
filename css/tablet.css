@@ -154,6 +154,10 @@
   /* FOOTER */
   /* #region FOOTER */
 
+  .footer {
+    padding: 97.5px 0 96px 0;
+  }
+
   .footer-wrapper {
     flex-direction: row;
     flex-wrap: wrap;

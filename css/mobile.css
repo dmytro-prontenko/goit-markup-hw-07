@@ -536,7 +536,7 @@
 /* #region FOOTER*/
 
 .footer {
-  padding: 96px 0;
+  padding: 97.5px 0 96px 0;
   background: var(--main-text);
 }
 
